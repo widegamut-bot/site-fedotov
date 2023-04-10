@@ -1,0 +1,75 @@
+body {
+    font-family: "OpenSans Regular", Helvetica, Arial, sans-serif;
+}
+H1 {
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+}
+H2 {
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+}
+
+.text-block {
+    max-width: 900px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #fdf7dc;
+}
+.avatar-box {
+    text-align: center;
+    background-color: #dadada;
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+}
+.avatar-img {
+    border: 1px solid #999;
+    border-radius: 50%;
+    max-width: 222px;
+}
+nav {
+    display: flex;
+    max-width: 900px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: #dadada;
+    padding: 40px;
+    border-radius: 20px 20px 0 0;
+}
+
+.nav-menu {
+    padding: 20px;
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+}
+
+.phone-icon {
+    height: 25px;
+    transform: rotate(120deg);
+    margin-right: 5px;
+}
+
+.telegram-icon {
+    height: 25px;
+    margin-right: 5px;
+}
+
+.vk-icon {
+    height: 25px;
+    margin-right: 5px;
+}
+
+footer {
+    border-top: 1px solid #dadada;
+    text-align: center;
+    margin-top: 80px;
+}
